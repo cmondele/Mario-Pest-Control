@@ -1,0 +1,69 @@
+body{
+    background: url(img/mario_landscape.png);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 80px;
+    box-shadow: 3px 2px black;
+    border: solid 4px black;
+    text-shadow: 2px 2px black
+}
+.sale{
+    font-size: 4px;
+}
+.card{
+    border-radius: 3%;
+    border : black solid 3px;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    width: 30%;
+    cursor: pointer;
+    height: 50% ;
+    /* grid-gap: 30px; */
+    
+}
+.price{
+    color: red;
+    font-size: 22px;
+
+}
+#img{
+   /* border: black solid 3px;*/
+   width: 100%;
+   border-radius : 3%;
+   height: 228px;
+}
+
+.card button{
+    border: none;
+    padding: 14px;
+    outline: 0;
+    color: white;
+    text-align: center;
+    background-color:black;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button :hover{
+    opacity: 0.8;
+}
+.add_button{
+    margin: 0;
+    background-color: black;
+}
+
+form{
+    position: relative;
+
+}
+/* .flex-container{
+    text-align: center;
+    
+} */
